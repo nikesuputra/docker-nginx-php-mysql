@@ -37,7 +37,6 @@ clean:
 	@rm -Rf web/app/composer.lock
 	@rm -Rf web/app/doc
 	@rm -Rf web/app/report
-	@rm -Rf etc/ssl/*
 
 code-sniff:
 	@echo "Checking the standard code..."
